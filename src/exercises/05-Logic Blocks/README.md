@@ -55,7 +55,7 @@ To loop over a list of data, you can use an `{#each}` block
 
 <ul>
   {#each colors as color}
-    <li>{color}</div>
+    <li>{color}</li>
   {/each}
 </ul>
 ```
@@ -69,7 +69,7 @@ You can get the current index as 2nd argument
 
 <ul>
   {#each colors as color, index}
-    <li>{index + 1}: {color}</div>
+    <li>{index + 1}: {color}</li>
   {/each}
 </ul>
 ```
@@ -87,7 +87,7 @@ You can [destructure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Re
 
 <ul>
   {#each colors as { name, hex }}
-    <li>{name} ({hex})</div>
+    <li>{name} ({hex})</li>
   {/each}
 </ul>
 ```
