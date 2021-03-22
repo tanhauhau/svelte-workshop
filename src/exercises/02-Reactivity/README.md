@@ -9,7 +9,7 @@ When you update a variable, it'll be reflected on the DOM immediately.
   function handleClick() {
     count += 1;
   }
-<script>
+</script>
 
 <button on:click={handleClick}>
   {count}
