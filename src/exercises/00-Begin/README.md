@@ -11,7 +11,7 @@ npm run setup
 Finally, run the app if you haven't already!
 
 ```sh
-npm start
+npm run dev
 ```
 
 Let's get started! 🎉
