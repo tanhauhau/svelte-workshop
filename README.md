@@ -39,7 +39,7 @@ After you have verified that you have the proper tools installed (and at the pro
 
 ```sh
 git clone https://github.com/tanhauhau/svelte-workshop.git
-cd react-workshop
+cd svelte-workshop
 npm run setup
 ```
 
